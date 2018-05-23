@@ -1,0 +1,139 @@
+*{
+	padding: 0px ;
+	margin: 0px ;
+	box-sizing: border-box; 
+	transition: ease-in-out all 1s ;
+	perspective: 600px;
+	
+
+}
+
+.main-header{
+	background-color: #3b557c ;
+	padding: 5px ;
+	margin-bottom: 10px ;
+	transition: ease-in-out all 1s ;
+	display: flex ;
+	justify-content: space-between;
+
+
+}
+.logo{
+	width: 90px ;
+	height: 90px ;
+	margin-right:20px ;
+}
+.div-flex1 h1{
+	padding: 10px ;
+	margin: 10px ;
+	margin-top: 30px ;
+	font-size: 25px ;
+	font-weight: bold ;
+	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+	color: white ;
+}
+.div-flex1 {
+	width: 35% ;
+	display: flex ;
+
+}
+
+.header-nav {
+	width: 50% ;
+	display: flex ;
+	justify-content: space-around;
+}
+
+.header-nav a {
+	font-size : 22px;
+	font-family: cursive ;
+	color: white ;
+	margin:25px;
+	max-height: 40px ;
+	display: inline-block ;
+	border: 2px solid white ;
+	border-radius: 15px ;
+	padding: 2px ;
+	transition: ease-in-out all 1s ;
+	text-decoration: none ;
+}
+
+.header-nav a:hover {
+	color: red ;
+	transform: scale(1.2);
+}
+body {
+	background-image: url('images/cover.jpg');
+	background-size: cover ;
+	overflow: scroll ;
+	background-repeat: no-repeat
+}
+
+
+
+
+/*.main-header:hover {
+	opacity: .8 ;
+}*/
+
+
+
+
+
+
+
+.doc{
+   width:230px;
+   height: 215px;
+   position: relative;
+   top:-20px;
+   left:10px;
+   transform-style: preserve-3d;
+   transition:all 1.4s ease-in-out;
+   float:left;
+   margin-top:50px;
+   margin-left: 20px
+}
+
+.doc:hover{
+   transform: rotateY(180deg)
+}
+.doc > div{
+   position: absolute;
+   left:0;
+   top:0;
+   width:100%;
+   height: 100%;
+   color:#fff;
+   font-size: 30px;
+   text-align: center;
+   padding: 6px;
+   margin: 5px;
+   font-family: 'Josefin Sans', sans-serif
+}
+.f1{
+   z-index:2;
+   position: relative;
+   left:-10px;
+   top:-10px;
+   position:relative;
+   top:200px;
+   padding: 0.5px;
+   background-color: #000;
+   border:1px solid #fff;
+   backface-visibility: hidden
+}
+.b1{
+   z-index: 1;
+   color:#fff;
+   background-color: rgb(0,0,0);
+   transform: rotateY(180deg);
+   backface-visibility: hidden
+}
+#info{
+   position: relative;
+   left:23px
+}
+
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Our Data</title>
+    <link rel="stylesheet" type="text/css" href="css/file.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+	<link rel="shortcut icon" href="images/pic.jpg" type="x-icon">
+	
+</head>
+<body>
+        <header class="main-header">
+                <div class="div-flex1">
+                        <img src="images/logo.png" class="logo">
+                        <h1>
+                            Health First Pharmacy
+                        </h1>
+        
+                </div>
+                
+                        
+                <nav class="header-nav">
+                        
+                            <a href="alaa.html">Home</a>
+                            <a href="about.html" >About Us</a>
+                            <a href="#" >Products</a>
+                            
+                            <a href="login.html">DB</a>
+                        
+                    </nav>
+                
+                
+            </header>
+	<main>
+        <section>
+			<section class="add-search">
+                    <button type="button" class="btn btn-primary" style="margin-left:400px;" id="add">Add new branch</button>
+                    <div class="input-group" style="width:30%;border:2px solid #646060;border-radius:15px;padding:3px;">
+                            <input class="form-control"
+                                   placeholder="search   by pharmacy_Name" id="name">
+                                   <button class="btn btn-primary" id="search">search</button>
+                          </div>
+
+            </section>
+            <div class="flex2">
+                        <aside class="aside">
+                                        <section>
+                                            <h2>
+                                                choose table
+                                            </h2>
+                                            <div class="list">
+                                                    <div class="list-group">
+                                                            <a href="medicine.html" class="list-group-item list-group-item-action">
+                                                              Medicine
+                                                            </a>
+                                                            <a href="patient.html" class="list-group-item list-group-item-action">Patient</a>
+                                                            <a href="company_make.html" class="list-group-item list-group-item-action">Company_Make</a>
+                                                            <a href="pharmacy.html" class="list-group-item active">Pharmacy</a>
+                                                            <a href="patient_buy.html" class="list-group-item list-group-item-action">Patient_buy</a>
+                                                            <a href="patient_treating.html" class="list-group-item list-group-item-action">Patient_treating</a>
+                                                            <a href="pharmacist.html" class="list-group-item list-group-item-action">Pharmacist</a>
+                                                            <a href="pharmacy_sells.html" class="list-group-item list-group-item-action">Pharmacy_sells</a>
+                                                            <a href="phone_of_company.html" class="list-group-item list-group-item-action">Phone_of_company</a>
+                                                            <a href="prescribing.html" class="list-group-item list-group-item-action">Prescribing</a>
+                                                            <a href="doctor.html" class="list-group-item list-group-item-action">Doctor</a>
+                                                            <a href="contains.html" class="list-group-item list-group-item-action">Contains</a>
+                                                            <a href="company.html" class="list-group-item list-group-item-action">Company</a>
+                                                            <a href="contract.html" class="list-group-item list-group-item-action">Contract</a>
+                                                            <a href="patient_phone.html" class="list-group-item list-group-item-action">Patient_Phone</a>
+                                                          </div>
+                                            </div>
+                                        </section>
+                                    </aside>
+                <div>
+                        <h2 style="margin: 10px;margin-top:20px">Pharmacy</h2>
+                        <table class="table table-hover" border="2px" style=" margin-top:30px;width:900px ; margin-right:10px;">
+                            <thead>
+                                    <tr>
+                                            <th class="key">Pharmacy_Id</th>
+                                            <th>Pharmacy_Name</th>
+                                            <th>City</th>
+                                            <th>Street_Name</th>
+                                            <th>Pharmacy_Phone</th>
+                                            <th>Actions</th>
+                                        </tr>
+                            </thead>
+                            <tbody id="pharmacy"></tbody>
+                        </table>
+                </div>
+            </div>
+        </section>
+				
+	</main>
+
+	
+        <script src="js/jquery-2.1.1.min.js"></script>	
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+            <script src="js/jquery.prettyPhoto.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>  
+            <script src="js/wow.min.js"></script>
+        <script src="js/pharmacy.js"></script>
+        
+        
+        <script type="text/javascript">
+                document.addEventListener('DOMContentLoaded',get,false) ;
+        </script>
+</body>
+</html>

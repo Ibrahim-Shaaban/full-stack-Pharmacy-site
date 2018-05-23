@@ -1,0 +1,142 @@
+*{
+	padding: 0px ;
+	margin: 0px ;
+	box-sizing: border-box; 
+	transition: ease-in-out all 1s ;
+	perspective: 600px;
+	
+
+}
+body {
+	background-image: url('images/logo2.jpg');
+	background-size: cover ;
+	overflow: scroll ;
+	background-repeat: no-repeat
+}
+.main-header{
+	background-color: #3b557c ;
+	padding: 5px ;
+	margin-bottom: 10px ;
+	transition: ease-in-out all 1s ;
+	display: flex ;
+	justify-content: space-between;
+
+
+}
+.logo{
+	width: 90px ;
+	height: 90px ;
+	margin-right:20px ;
+}
+.div-flex1 h1{
+	padding: 10px ;
+	margin: 10px ;
+	margin-top: 30px ;
+	font-size: 25px ;
+	font-weight: bold ;
+	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+	color: white ;
+}
+.div-flex1 {
+	width: 35% ;
+	display: flex ;
+
+}
+
+.header-nav {
+	width: 50% ;
+	display: flex ;
+	justify-content: space-around;
+}
+
+.header-nav a {
+	font-size : 22px;
+	font-family: cursive ;
+	color: white ;
+	margin:25px;
+	max-height: 40px ;
+	display: inline-block ;
+	border: 2px solid white ;
+	border-radius: 15px ;
+	padding: 2px ;
+	transition: ease-in-out all 1s ;
+	text-decoration: none ;
+}
+
+.header-nav a:hover {
+	color: red ;
+	transform: scale(1.2);
+}
+.sentence{
+    color:#000;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 1px;
+    padding:10px;
+    margin: auto;
+    text-transform: uppercase;
+	margin-top: 20px;
+	text-align: center
+  
+}
+.sentence2{
+    color:#000;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 25px;
+    font-style: italic;
+    letter-spacing: 1px;
+    padding:10px;
+    margin: auto;
+    text-transform: uppercase;
+	margin-top: 30px;
+	
+  
+}
+
+
+
+/*.main-header:hover {
+	opacity: .8 ;
+}*/
+
+
+
+
+.header-nav {
+	width: 50% ;
+	display: flex ;
+	justify-content: space-around;
+}
+
+.header-nav a {
+	font-size : 22px;
+	font-family: cursive ;
+	color: white ;
+	margin:25px;
+	max-height: 40px ;
+	display: inline-block ;
+	border: 2px solid white ;
+	border-radius: 15px ;
+	padding: 2px ;
+	transition: ease-in-out all 1s ;
+	text-decoration: none ;
+}
+
+.header-nav a:hover {
+	color: red ;
+	transform: scale(1.2);
+}
+.begin{
+	border: 2px dashed #3b557c;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 25px;
+	margin: 20px;
+	width:500px;
+	margin-left:50px;
+	margin-top: 50px;
+	padding: 20px;
+	font-size: 20px
+}
+

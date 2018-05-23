@@ -1,0 +1,144 @@
+*{
+	padding: 0px ;
+	margin: 0px ;
+	box-sizing: border-box; 
+	transition: ease-in-out all 1s ;
+	perspective: 600px;
+	
+
+}
+.key{
+	text-decoration: underline;
+}
+/*body {
+	background-image: url('logo2.jpg');
+	background-size: contain ;
+}*/
+.main-header{
+	background-color: #3b557c ;
+	padding: 5px ;
+	margin-bottom: 10px ;
+	transition: ease-in-out all 1s ;
+	display: flex ;
+	justify-content: space-between;
+
+
+}
+.logo{
+	width: 90px ;
+	height: 90px ;
+	margin-right:20px ;
+}
+.div-flex1 h1{
+	padding: 10px ;
+	margin: 10px ;
+	margin-top: 30px ;
+	font-size: 25px ;
+	font-weight: bold ;
+	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+	color: white ;
+}
+.div-flex1 {
+	width: 35% ;
+	display: flex ;
+
+}
+
+.header-nav {
+	width: 50% ;
+	display: flex ;
+	justify-content: space-around;
+}
+
+.header-nav a {
+	font-size : 22px;
+	font-family: cursive ;
+	color: white ;
+	margin:25px;
+	max-height: 40px ;
+	display: inline-block ;
+	border: 2px solid white ;
+	border-radius: 15px ;
+	padding: 2px ;
+	transition: ease-in-out all 1s ;
+	text-decoration: none ;
+}
+
+.header-nav a:hover {
+	color: red ;
+	transform: scale(1.2);
+	text-decoration: none ;
+}
+
+.footer {
+	background-color:rgba(0,32,96,.5 ) ;
+	padding: 10px ;
+	margin: 10px;
+	margin-bottom: 0px;
+	transition: ease-in-out all 1s ;
+	position: relative;
+	top:800px;
+}
+
+.aside {
+	width: 25% ;
+	
+	padding : 6px ;
+	border-radius: 15px ;
+}
+.list {
+	height: 390px ;
+	overflow-y: scroll ;
+
+}
+.aside h2 {
+	text-align: center ;
+	padding: 10px ;
+	background-color:teal ;
+	font-size: 20px ;
+	font-family: fantasy ;
+	margin-bottom: 5px ;
+	border-radius: 15px ;
+	color: white ;
+}
+
+.add-search {
+	display: flex ;
+	flex: row wrap ;
+	justify-content: space-around ;
+	margin-bottom: 10px ;
+}
+
+.flex2 {
+	display: flex ;
+	flex: row wrap ;
+	justify-content: space-between ;
+}
+
+.line {
+	background-color: rgb(156, 38, 107) ;
+	color: white ;
+	transition: ease-in-out all .8s ;
+	border: 1px solid rgb(156, 38, 107);
+	padding: 10px ;
+	margin:5px auto ;
+	text-align: center ;
+	width:30% ;
+}
+
+.line:hover {
+	background-color: rgb(41, 85, 102) ;
+	color: white ;
+	border:1px solid rgb(41, 85, 102) ;
+	border-radius: 15px ;
+}
+.form2 {
+	width: 80% ;
+	margin:10px auto ;
+	border: 3px solid rgb(81, 104, 102) ;
+	padding: 5px ;
+	border-radius: 15px ;
+}
+
+

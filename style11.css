@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(109,217,255)
+}
+.container{
+    background-color: rgba(255,255,255,0.8);
+    text-align: center;
+    width:300px;
+    height: 230px;
+    position: relative;
+    /*border-radius: 20px*/
+    margin: 50px auto;
+    top:-250px;
+    padding: 10px
+}
+
+h2{
+   font-family:'Sedgwick Ave', cursive;
+   padding: 20px 10px 0 ;
+   margin-top: -10px;
+   display: none
+}
+
+label{
+    padding: 10px;
+    font-family: cursive,arial;
+    font-size: 14px
+}
+input{
+    padding: 5px;
+    margin: 10px
+}
+button{
+    margin: 15px 0 ;
+    width:100px;
+    height: 30px;
+    border-radius: 15px
+}
+section{
+    position: relative;
+    top: 20px
+}

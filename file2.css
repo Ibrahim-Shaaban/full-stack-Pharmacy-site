@@ -1,0 +1,76 @@
+*{
+	padding: 0px ;
+	margin: 0px ;
+	box-sizing: border-box; 
+	transition: ease-in-out all 1s ;
+	perspective: 600px;
+	
+
+}
+
+.main-header{
+	background-color: #3b557c ;
+	padding: 5px ;
+	margin-bottom: 10px ;
+	transition: ease-in-out all 1s ;
+    width: 1450px
+	
+
+
+}
+.main-header div {
+	display: flex;
+	flex-flow: row wrap ;
+}
+.logo{
+	width: 90px ;
+	height: 90px ;
+	margin-left: 10px;
+	margin-top: 10px
+}
+.main-header div h1{
+	padding: 10px ;
+	margin: 10px ;
+	margin-top: 30px ;
+	font-size: 25px ;
+	font-weight: bold ;
+	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+	color: white ;
+}
+
+/*.main-header:hover {
+	opacity: .8 ;
+}*/
+
+
+.header-nav ul {
+	list-style-type: none;
+
+}
+
+.header-nav {
+	margin-left: 450px ;
+	margin-top: 30px;
+}
+
+.header-nav ul li {
+	font-size : 22px;
+	font-family: cursive ;
+	color: white ;
+	margin: 15px;
+	display: inline-block ;
+	border: 2px solid white ;
+	border-radius: 15px ;
+	padding: 6px ;
+	transition: ease-in-out all 1s ;
+}
+
+.header-nav ul li:hover {
+	color: red ;
+	margin: 15px;
+	display: inline-block ;
+	border: 2px solid white ;
+	transform: scale(1.2);
+}
+
